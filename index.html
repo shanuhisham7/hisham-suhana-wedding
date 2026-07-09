@@ -18,6 +18,7 @@
     --velvet-rose:#c97b86;
     --gold:#c9a24b;
     --gold-soft:#e6d5a3;
+    --gold-dark:#8a6a2e;
     --cream:#faf4e6;
     --stone-bg:#d3c7ae;
   }
@@ -105,7 +106,7 @@
   .hero-photo{ width:100%; max-width:520px; display:block; margin:0 auto; }
 
   #countdown{ padding-top:8px; }
-  .count-label{ font-size:0.72rem; letter-spacing:0.3em; text-transform:uppercase; color:var(--gold); margin-bottom:22px; }
+  .count-label{ font-size:0.72rem; letter-spacing:0.3em; text-transform:uppercase; color:var(--gold-soft); -webkit-text-stroke:0.4px var(--gold-dark); text-shadow:0 1px 3px rgba(0,0,0,0.5); margin-bottom:22px; }
   .count-grid{ display:grid; grid-template-columns:repeat(4,1fr); gap:12px; }
   .count-box{ background:var(--velvet-deep); color:var(--cream); padding:18px 4px; border:1px solid var(--gold); }
   .count-num{ font-family:'Marcellus', serif; font-size:1.7rem; color:var(--gold-soft); }
@@ -120,7 +121,7 @@
 
   #details{ padding-bottom:8px; }
   #details .detail-row{ margin-top:26px; }
-  #details .detail-label{ font-size:0.7rem; letter-spacing:0.28em; text-transform:uppercase; color:var(--gold); margin-bottom:8px; }
+  #details .detail-label{ font-size:0.7rem; letter-spacing:0.28em; text-transform:uppercase; color:var(--gold-soft); -webkit-text-stroke:0.4px var(--gold-dark); text-shadow:0 1px 3px rgba(0,0,0,0.5); margin-bottom:8px; }
   #details .detail-value{ font-size:1.15rem; color:var(--velvet-deep); line-height:1.5; }
 
   .btn-row{ margin-top:34px; display:flex; gap:14px; justify-content:center; flex-wrap:wrap; }
@@ -140,7 +141,9 @@
   footer{
     text-align:center; padding:20px 0 40px;
     font-size:0.68rem; letter-spacing:0.18em; text-transform:uppercase;
-    color:var(--gold); opacity:0.7;
+    color:var(--gold-soft); -webkit-text-stroke:0.4px var(--gold-dark);
+    text-shadow:0 1px 2px rgba(0,0,0,0.35);
+    opacity:1;
   }
 
   @media (max-width:380px){
